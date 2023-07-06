@@ -21,4 +21,4 @@ Every time the position of the mines is randomly selected. The position of the m
 
 HOW TO RUN:
 -
-Download the zip -> unzip -> go to Eclipse (or other IDE) ->Open Projects from File Dystem -> Directory -> pick the unzipped folder-> run Main.java
+Download the MinesweeperApp_Multimedia folder -> go to Eclipse (or other IDE) ->Open Projects from File System -> Directory -> pick the folder-> run Main.java
