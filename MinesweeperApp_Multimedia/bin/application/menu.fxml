@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane id="borderPane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <top>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <MenuButton fx:id="menu" mnemonicParsing="false" text="Menu">
+              <items>
+                <MenuItem fx:id="createWindowB" mnemonicParsing="false" onAction="#createWindow" text="Create a new scenario" />
+                <MenuItem fx:id="loadB" mnemonicParsing="false" onAction="#loadWindow" text="Load a scenario" />
+                  <MenuItem fx:id="startB" mnemonicParsing="false" onAction="#launch" text="Start playing" />
+                  <MenuItem fx:id="exitB1" mnemonicParsing="false" onAction="#exit" text="Exit" />
+                  <Menu mnemonicParsing="false" text="Details">
+                    <items>
+                      <MenuItem fx:id="scoreB" mnemonicParsing="false" onAction="#scoreWindow" text="Show score" />
+                        <MenuItem fx:id="showB" mnemonicParsing="false" onAction="#showSolution" text="Show solution" />
+                    </items>
+                  </Menu>
+              </items>
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets left="8.0" right="15.0" />
+               </padding>
+            </MenuButton>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
