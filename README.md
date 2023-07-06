@@ -18,3 +18,7 @@ Right click-> flag (unflag) square
 If user flags the superbomb in the first 4 actions, all the squares in the same line and column open.
 User loses if he opens a bomb or if the time is up and he wins if he opens all the squares without a bomb.
 Every time the position of the mines is randomly selected. The position of the mines are writen in the mines.txt file. 
+
+HOW TO RUN:
+-
+Download the zip -> unzip -> go to Eclipse (or other IDE) ->Open Projects from File Dystem -> Directory -> pick the unzipped folder-> run Main.java
